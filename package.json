@@ -1,5 +1,11 @@
 {
   "dependencies": {
     "nodemailer": "^6.9.13"
+  },
+  "devDependencies": {
+    "standard-version": "^9.5.0"
   }
 }
+"scripts": {
+  "release": "standard-version"
+},
